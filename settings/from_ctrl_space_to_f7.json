@@ -1,0 +1,26 @@
+{
+  "title": "F7 -> ctrl + SPACE",
+  "rules": [
+    {
+      "description": "left_ctrl + space でカタカナ変換",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "spacebar",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f7"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
